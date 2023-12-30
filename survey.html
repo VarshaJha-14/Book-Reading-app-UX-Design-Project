@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+	<title>
+		Reader's Survey
+	</title>
+
+	<style>
+
+		/* Styling the Body element i.e. Color,
+		Font, Alignment */
+		body {
+			/*background-color: #05c46b;*/
+			background-image: url("https://i.pinimg.com/564x/61/70/5a/61705aa9ad358ba70202d1c18f168d22.jpg");
+            background-attachment: fixed;
+
+			font-family: Verdana;
+			text-align: center;
+		}
+
+		/* Styling the Form (Color, Padding, Shadow) */
+		form {
+			background-color: #fff;
+			max-width: 500px;
+			margin: 50px auto;
+			padding: 30px 20px;
+			box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+		}
+
+		/* Styling form-control Class */
+		.form-control {
+			text-align: left;
+			margin-bottom: 25px;
+		}
+
+		/* Styling form-control Label */
+		.form-control label {
+			display: block;
+			margin-bottom: 10px;
+		}
+
+		/* Styling form-control input,
+		select, textarea */
+		.form-control input,
+		.form-control select,
+		.form-control textarea {
+			border: 1px solid #777;
+			border-radius: 2px;
+			font-family: inherit;
+			padding: 10px;
+			display: block;
+			width: 95%;
+		}
+
+		/* Styling form-control Radio
+		button and Checkbox */
+		.form-control input[type="radio"],
+		.form-control input[type="checkbox"] {
+			display: inline-block;
+			width: auto;
+		}
+
+		/* Styling Button */
+		button {
+			background-color:#a27b96;
+			border: 1px solid white;
+			border-radius: 10px;
+			font-family: inherit;
+			font-size: 25px;
+			display: block;
+			width: 50%;
+			margin-top: 50px;
+			margin-bottom: 20px;
+			margin-left: 128px;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			color: white;
+		}
+		.purple_color{
+			color: #7e5070;
+		}
+
+		.another_class{
+			color: #333e3c;
+		}
+		
+	</style>
+</head>
+
+<body>
+	<h1 style="color:white;font-family: math; font-size: 40px; ">Reader's Survey</h1>
+
+	<!-- Create Form -->
+	<form id="form" style="margin-top: 0px; background-color:rgb(255,255,255,83%) " action="https://formcarry.com/s/Qmxe2DfaNu" method="POST" accept-charset="UTF-8">
+
+		<!-- Details -->
+		<div class="form-control">
+			<label for="name" id="name" class="purple_color";>
+				Name
+			</label>
+
+			<!-- Input Type Text -->
+			<input type="text"
+				id="name"
+				name="name"
+				placeholder="Enter your name" />
+		</div>
+
+		<div class="form-control">
+			<label for="age" id="age" class="purple_color">
+				Age
+			</label>
+
+			<!-- Input Type Text -->
+			<input type="text"
+				id="age"
+				name="age"
+				placeholder="Enter your age" />
+		</div>
+
+		<div class="form-control">
+            <label for="email" id="email" class="purple_color">
+                Email
+            </label>
+ 
+            <!-- Input Type Email-->
+            <input type="email"
+                   id="email"
+                   name="email"
+                   placeholder="abc@example.com" />
+        </div>
+
+		<div class="form-control">
+			<label for="device_used" id="device_used" class="purple_color">
+				Which device do you use to read E-Books?
+				<small>(Check all that apply)</small>
+			</label>
+			<label for="deviceinp-1" class="another_class">
+				<input type="checkbox"
+					name="deviceinp" value="Ipad/Tablet">Ipad/Tablet</input></label>
+			<label for="deviceinp-2" class="another_class">
+				<input type="checkbox"
+					name="deviceinp" value="E-Reader/Kindle">E-Reader/Kindle</input></label>
+			<label for="deviceinp-3" class="another_class">
+				<input type="checkbox"
+					name="deviceinp" value="Desktop/Laptop/MacBook">Desktop/Laptop/MacBook</input></label>
+			<label for="deviceinp-4" class="another_class">
+				<input type="checkbox"
+					name="deviceinp" value="Android/Iphone/GooglePixel">Android/Iphone/GooglePixel</input></label>
+
+		</div>
+
+
+
+		<div class="form-control">
+			<label for="que1" id="que1"class="purple_color">
+				How often do you read e-books?
+			</label>
+
+			<!-- Input Type Email-->
+			<label for="que1" class="another_class">
+				<input type="radio"
+					id="que1"
+					name="que1" value="Often">Often</input>
+			</label>
+			<label for="que1" class="another_class">
+				<input type="radio"
+					id="que1"
+					name="que1" value="Sometimes">Sometimes</input>
+			</label>
+			<label for="que1" class="another_class">
+				<input type="radio"
+					id="que1"
+					name="que1" value="Never">Never</input>
+			</label>
+		</div>
+         
+         <div class="form-control">
+			<label for="que2" id="que2" class="purple_color">
+				Which App do you prefer for reading? 
+			</label>
+
+			<!-- Input Type Text -->
+			<input type="text"
+				id="que2"
+				name="que2">
+		</div>
+
+		<div class="form-control">
+			<label for="que3" id="que3" class="purple_color">
+				What makes the above mentioned app good ? 
+			</label>
+
+			<!-- Input Type Text -->
+			<textarea name="que3" placeholder="Eg:It is easy to use"></textarea>
+		</div>
+
+		<div class="form-control">
+			<label for="que4" id="que4" class="purple_color">
+				What makes an ebook reader app instantly dislikable ?
+			</label>
+
+			<!-- Input Type Text -->
+			<textarea name="que4" placeholder="Eg: I feel frustated when I can't highlight my favorite lines"></textarea>
+		</div>
+
+		<div class="form-control">
+			<label for="que5" id="que5" class="purple_color">
+				How do you think the above problem could have been resolved?
+			</label>
+
+			<!-- Input Type Text -->
+			<textarea name="que5" placeholder="Eg:By adding a feature to support highlighting" rows="8" cols="20" ></textarea>
+		</div>
+ 
+
+		<div class="form-control">
+			<label for="que6" id="que6" class="purple_color">
+				Which text format should your app necessarily support?
+				<small>(Check all that apply)</small>
+			</label>
+			<!-- Input Type Checkbox -->
+			<label for="inp-1" class="another_class">
+				<input type="checkbox"
+					name="inp" value="EPUB">EPUB</input></label>
+			<label for="inp-2" class="another_class">
+				<input type="checkbox" 
+					name="inp" value="MOBI">MOBI</input></label>
+			<label for="inp-3" class="another_class">
+				<input type="checkbox"
+					name="inp" value="AZW and AZW3">AZW and AZW3</input></label>
+			<label for="inp-4" class="another_class">
+				<input type="checkbox"
+					name="inp" value="PDF">PDF</input></label>
+			<label for="inp-5" class="another_class">
+				<input type="checkbox"
+					name="inp" value="DJVU">DJVU</input></label>
+			<label for="inp-6" class="another_class">
+				<input type="checkbox"
+					name="inp" value="FB2">FB2</input></label>
+			<label for="inp-7" class="another_class">
+				<input type="checkbox"
+					name="inp" value="Not sure">Not sure about it</input></label>
+		</div>
+
+		<button type="submit" value="submit" >
+			Submit
+		</button>
+	</form>
+	
+</body>
+
+</html>
+
+<!-- https://surveyforreaders.netlify.app/ -->
